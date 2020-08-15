@@ -1,0 +1,23 @@
+* {
+  color: hsl(0, 50%, 50%);
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: purple;
+}
+
+li {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+strong {
+  color: black;
+}
+
+body {
+  color: red;
+}
