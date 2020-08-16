@@ -1,13 +1,20 @@
 * {
   color: hsl(0, 50%, 50%);
+  background-color: rgb(140, 160, 210);
+  font-family: ;
 }
 
 h1 {
   color: blue;
 }
 
-h2 {
-  color: purple;
+h2::after {
+  content: "\a";
+  white-space: pre;
+}
+
+hr {
+  border: 1px solid #000000;
 }
 
 li {
@@ -19,5 +26,27 @@ strong {
 }
 
 body {
-  color: red;
+  color: #818181;
+}
+
+button {
+  background-color: #888888;
+  border: 3px solid #808080;
+}
+
+.store-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.store-item {
+  margin: 1rem;
+  padding: 10px;
+  border: 1px solid #808080;
+  text-align: center;
+}
+
+.store-section-title {
+  color: #000000;
+  display: initial;
 }
