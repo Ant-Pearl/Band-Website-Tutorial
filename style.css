@@ -1,16 +1,10 @@
 * {
-  color: hsl(0, 50%, 50%);
-  background-color: rgb(140, 160, 210);
+  background-color: #2B2D42;
   font-family: ;
 }
 
 h1 {
-  color: blue;
-}
-
-h2::after {
-  content: "\a";
-  white-space: pre;
+  color: #8D99AE;
 }
 
 hr {
@@ -18,23 +12,24 @@ hr {
 }
 
 li {
-  color: rgba(255, 0, 0, 0.5);
+  color: #EDF2F4;
 }
 
 strong {
-  color: black;
+  color: #8D99AE;
 }
 
 body {
-  color: #818181;
+  color: #2B2D42;
 }
 
 button {
-  background-color: #888888;
-  border: 3px solid #808080;
+  background-color: #EF233C;
+  border: 3px solid #D90429;
 }
 
 .store-section {
+  color: #8D99AE;
   display: flex;
   flex-wrap: wrap;
 }
@@ -42,11 +37,11 @@ button {
 .store-item {
   margin: 1rem;
   padding: 10px;
-  border: 1px solid #808080;
+  border: 1px solid #D90429;
   text-align: center;
 }
 
 .store-section-title {
-  color: #000000;
+  color: #2B2D42;
   display: initial;
 }
