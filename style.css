@@ -1,6 +1,9 @@
 * {
   background-color: #2B2D42;
-  font-family: ;
+}
+
+header {
+  text-align: center;
 }
 
 h1 {
@@ -23,9 +26,22 @@ body {
   color: #2B2D42;
 }
 
-button {
+button.store-add {
   background-color: #EF233C;
   border: 3px solid #D90429;
+  width: 120px;
+  height: 25px;
+  transition: .5s;
+}
+
+button.store-add:hover {
+  visibility: visible;
+  background-color: #D90429;
+  border: 3px solid rgb(255, 0, 0);
+}
+
+button.store-add:hover::after {
+  content: "\2713";
 }
 
 .store-section {
@@ -44,4 +60,17 @@ button {
 .store-section-title {
   color: #2B2D42;
   display: initial;
+}
+
+.store-section span{
+  display: inline-block;
+}
+
+.store-section img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2{
+  color: #2B2D42;
 }
